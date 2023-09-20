@@ -2,34 +2,65 @@
 <html>
 
 <head>
-    <title> Image </title>
+    <title>image</title>
 </head>
 
 <body>
 
-    <iframe
-    src="https://wallpapers.com/images/high/ganesh-ji-hd-giant-statue-3caperca654wahre.webp"
-    width="7000" height="700"  style="border: 0;" allowfullscreen=" "  loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <h2> Your opinion ? </h2>
-    <form onsubmit="">
-        <input type="radio" id="html" name="best language" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="angular" name="easy language" value="ANGULAR">
-        <label for="angular">ANGULAR</label><br>
-        <input type="radio" id="react" name="hard language" value="REACT">
-        <label for="react">REACT</label>
+    <img src="https://i.pinimg.com/1200x/db/5a/a7/db5aa759ff860dceae5c8f80ba9f8c28.jpg" />
 
+
+
+    <img src="https://unsplash.com/s/photos/ganesh" />
+
+    <!-- <iframe
+        src="https://i.pinimg.com/1200x/db/5a/a7/db5aa759ff860dceae5c8f80ba9f8c28.jpg"
+        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    <h2>Your Favourite Language ?</h2>
+    <form onsubmit="">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaSc
+            ript">
+        <label for="javascript">JavaScript</label>
     </form>
+
     <form>
-        <input type="checkbox" id="rahul" name="rahul" value="Man">
-        <label for="rahul">Rahul is a good boy</label><br>
-        <input type="checkbox" id="priya" name="priya" value="Girl">
-        <label for="priya">Priya is a pretty girl</label><br>
-        <input type="checkbox" id="sam" name="sam" value="Dog">
-        <label for="sam">Sam is a big dog</label>
+        <input type="checkbox" id="Rahul" name="Rahul" value="Man">
+        <label for="vehicle1"> Rahul is a good boy</label><br>
+        <input type="checkbox" id="Priya" name="Priya" value="Girl">
+        <label for="vehicle2"> Priya is a pretty girl</label><br>
+        <input type="checkbox" id="Sam" name="Sam" value="Dog">
+        <label for="vehicle3"> Sam is a cute dog</label>
     </form>
-    
+
+    <form onsubmit="Register()">
+
+        <label>Name</label><br />
+        <input type="text" placeholder="Type your name.." /><br />
+        <label>UserName</label><br />
+        <input type="text" value="BlackPanther421" disabled /><br />
+        <label>Email</label><br />
+        <input type="Email" placeholder="ashish@gmail.com" /><br />
+        <label>Password</label><br />
+        <input type="password" placeholder="123456" /><br />
+        <input type="submit" value="Login" />
+    </form>
+
+    <label for="Fruit">Select a Fruits</label>
+    <select id="fruit" name="fruit">
+        <option>Click here..</option>
+        <option value="apple">Apple</option>
+        <option value="pineapple">Pineapple</option>
+        <option value="grapes">Grapes</option>
+    </select>
+
+    <input />
+    <textarea cols="80" rows="12"></textarea>
+    <button onclick="alert('Click button')">Click here</button>
 </body>
 
 </html>
