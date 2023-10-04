@@ -1,7 +1,7 @@
-var name = "Ashish"
-var institute = "Irise"
-var course = "java full stack development"
-var year = "2023"
+var name = "Ashish";
+var institute = "Irise";
+var course = "java full stack development";
+var year = "2023";
 
 console.log(name)
 console.log(institute)
