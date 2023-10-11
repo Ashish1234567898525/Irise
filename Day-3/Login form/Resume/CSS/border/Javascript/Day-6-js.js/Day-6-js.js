@@ -39,37 +39,9 @@ function findSumAndEven(array) {
 }
 findSumAndEven(numbers)
 
-// Nested for loops
 
-// for (var i = 0; i < Array.length; i++) {
-//     for (var j = 0; j < Array.length; j++) {
-
-//     }
-// }
-
-// Q. given an array and target,
-//     find out two numbers whos addition is target.
-
-// 23, 3
-// 23, 4
-// 23, 8
-// 23, 4
-// 23, 3
-// 23, 58
-
-// 3 4
-// 3 8 
-// 3 4
-// 3 2
-// 3 58
-
-// 4 8
-// 4 4
-// 4 2
-// 4 58
-
-var array = [23, 3, 4, 8, 4, 2, 58, 9, 6, 4, 24, 6, 7, 65, 4, 5]
-var target = 8;
+var array = [5, 3, 7, 8, 4, 2, 56, 9, 6, 4, 24, 6, 7, 2, 4, 8]
+var target = 10;
 
 for (var i = 0; i < array.length - 1; i++) {
     // console.log(array[i], "i")
